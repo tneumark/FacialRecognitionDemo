@@ -25,13 +25,7 @@ import org.openimaj.image.processing.face.detection.keypoints.FacialKeypoint;
 import org.openimaj.image.processing.face.detection.keypoints.KEDetectedFace;
 import org.openimaj.math.geometry.shape.Rectangle;
 
-/**
- * Simple command line face detection based on the OpenIMAJ framework - http://www.openimaj.org
- * License for this file: Feel free to use this file for whatever you like ;)
- *
- * @author Mathias Lux, mathias@juggle.at
- *         Created: 15.03.12, 12:52
- */
+
 public class FaceDetection {
     public static void main(String[] args) throws IOException {
     	NumberFormat formatter = NumberFormat.getIntegerInstance();
